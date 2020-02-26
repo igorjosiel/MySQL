@@ -1,0 +1,8 @@
+//Adicionando nova coluna à tabela
+ALTER TABLE tb_cursos ADD COLUMN carga_horaria VARCHAR(5) NOT NULL;
+
+//Alterando o nome da coluna da tabela
+ALTER TABLE tb_cursos CHANGE carga_horaria carga_hora INT(5) NULL;
+
+//Excluindo coluna da tabela
+ALTER TABLE tb_cursos DROP carga_horaria;

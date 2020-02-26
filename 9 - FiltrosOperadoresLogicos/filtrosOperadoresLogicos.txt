@@ -1,0 +1,13 @@
+//Operador AND
+SELECT * 
+FROM
+      `tb_alunos`
+WHERE
+      interesse = 'Jogos' AND idade > 45 AND estado = 'RN'
+
+//Operador OR
+SELECT * 
+FROM
+      `tb_alunos`
+WHERE
+      interesse = 'Jogos' OR idade > 45

@@ -1,0 +1,15 @@
+//Operador BETWEEN
+
+//Operador =
+SELECT * 
+FROM
+      `tb_alunos`
+WHERE
+      idade BETWEEN 18 AND 25
+
+//Operador =
+SELECT * 
+FROM
+      `tb_alunos`
+WHERE
+      data BETWEEN '2018-07-01' AND 2018-07-31'

@@ -1,0 +1,12 @@
+//DELETE FROM = Exclui registro(s) de uma tabela
+
+DELETE FROM
+      tb_alunos
+WHERE
+      id_aluno = 5
+
+DELETE FROM
+      tb_alunos
+WHERE
+      idade IN(10, 18, 22, 28, 34) AND interesse = 'Esporte'
+

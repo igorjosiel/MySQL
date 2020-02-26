@@ -1,0 +1,34 @@
+//Operador =
+SELECT * 
+FROM
+      `tb_alunos`
+WHERE
+      interesse = 'Jogos'
+
+//Operador <
+SELECT * 
+FROM
+      `tb_alunos`
+WHERE
+      idade < 25
+
+//Operador <=
+SELECT * 
+FROM
+      `tb_alunos`
+WHERE
+      idade <= 25
+
+//Operador >
+SELECT * 
+FROM
+      `tb_alunos`
+WHERE
+      idade > 30
+
+//Operador >=
+SELECT * 
+FROM
+      `tb_alunos`
+WHERE
+      idade >= 35

@@ -1,0 +1,23 @@
+//Criando o banco de dados
+CREATE DATABASE db_curso_web;
+
+//Removendo o banco de dados
+DROP DATABASE db_curso_web;
+
+//Criando tabela
+CREATE TABLE tb_cursos
+(
+      id_curso int not null,
+      imagem_curso varchar(100) not null,
+      nome_curso char(50) not null,
+      resumo text null,
+      data_cadastro datetime not null,
+      ativo boolean default true,
+      investimento float(5, 2) dafault 0,
+);
+
+//Removendo tabela
+DROP TABLE tb_cursos;
+
+//Renomeando tabela
+RENAME TABLE tb_cursos TO tb_cursos_teste;

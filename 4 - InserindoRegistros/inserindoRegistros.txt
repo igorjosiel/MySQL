@@ -1,0 +1,2 @@
+//Inserindo registro na tabela
+INSERT INTO tb_cursos (ativo, carga_horaria, data_cadastro, imagem_curso, investimento, nome_curso, resumo) values(1, 35, '2020/02/16 12:25:35', 2, 'curso_angular.jpg', 575.86, 'Web Completo com JS, TS e Angular', 'Aprenda a criar aplicações front-end incríveis com JavaScript, TypeScript e Angular');
